@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="432.925" tests="42" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\target\test-classes;C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\target\classes;C:\Users\2319953\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2319953\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2319953\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2319953\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\2319953\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2319953\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2319953\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2319953\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2319953\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2319953\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2319953\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\2319953\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\2319953\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\2319953\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\2319953\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\2319953\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2319953\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2319953\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2319953\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2319953\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2319953\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2319953\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\2319953\AppData\Local\Temp\surefire13913291564595871321\surefirebooter-20240403221242208_3.jar C:\Users\2319953\AppData\Local\Temp\surefire13913291564595871321 2024-04-03T22-12-41_983-jvmRun1 surefire-20240403221242208_1tmp surefire_0-20240403221242208_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\target\test-classes;C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\target\classes;C:\Users\2319953\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2319953\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2319953\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2319953\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\2319953\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2319953\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2319953\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2319953\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2319953\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2319953\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2319953\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\2319953\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\2319953\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\2319953\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\2319953\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\2319953\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\2319953\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\2319953\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2319953\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2319953\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2319953\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2319953\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2319953\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2319953\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2319953\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2319953\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2319953"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2319953\AppData\Local\Temp\surefire13913291564595871321\surefirebooter-20240403221242208_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
+    <property name="user.name" value="2319953"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
+    <property name="localRepository" value="C:\Users\2319953\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2319953\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\SeleniumDownloads\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\2319953\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.ProductPageTestCases" time="0.025">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.ProductPageTestCases" time="0.009">
+    <system-err><![CDATA[Apr 03, 2024 10:16:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="clickBookShelfTest" classname="projectTestCases.ProductPageTestCases" time="2.318"/>
+  <testcase name="clickBookShelfTest" classname="projectTestCases.ProductPageTestCases" time="2.614"/>
+  <testcase name="checkProductPageUrlTest" classname="projectTestCases.ProductPageTestCases" time="0.01"/>
+  <testcase name="checkProductPageUrlTest" classname="projectTestCases.ProductPageTestCases" time="0.008"/>
+  <testcase name="checkProductPageTitleTest" classname="projectTestCases.ProductPageTestCases" time="0.013"/>
+  <testcase name="checkProductPageTitleTest" classname="projectTestCases.ProductPageTestCases" time="0.009"/>
+  <testcase name="popupTest" classname="projectTestCases.ProductPageTestCases" time="2.729"/>
+  <testcase name="popupTest" classname="projectTestCases.ProductPageTestCases" time="2.394"/>
+  <testcase name="PriceSliderTest" classname="projectTestCases.ProductPageTestCases" time="11.034"/>
+  <testcase name="PriceSliderTest" classname="projectTestCases.ProductPageTestCases" time="10.706"/>
+  <testcase name="ExcludeOutOfStockTest" classname="projectTestCases.ProductPageTestCases" time="0.267"/>
+  <testcase name="ExcludeOutOfStockTest" classname="projectTestCases.ProductPageTestCases" time="0.164"/>
+  <testcase name="StorageTypeTest" classname="projectTestCases.ProductPageTestCases" time="0.385"/>
+  <testcase name="StorageTypeTest" classname="projectTestCases.ProductPageTestCases" time="0.257"/>
+  <testcase name="listOfProductsTest" classname="projectTestCases.ProductPageTestCases" time="2.756">
+    <system-out><![CDATA[1.Theodore Engineered Wood Bookshelf in Rustic Walnut Finish - Rs.13280
+2.Rustic Engineered Wood Bookshelf in Asian Walnut Finish - Rs.7049
+3.Harwin Solid Wood Bookshelf in Mahogany Finish - Rs.11263
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="listOfProductsTest" classname="projectTestCases.ProductPageTestCases" time="2.604">
+    <system-out><![CDATA[1.Theodore Engineered Wood Bookshelf in Rustic Walnut Finish - Rs.13280
+2.Rustic Engineered Wood Bookshelf in Asian Walnut Finish - Rs.7049
+3.Harwin Solid Wood Bookshelf in Mahogany Finish - Rs.11263
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.HomePageTestCases" time="0.018"/>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.HomePageTestCases" time="0.012">
+    <system-err><![CDATA[Apr 03, 2024 10:17:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="checkHomePageTitleTest" classname="projectTestCases.HomePageTestCases" time="0.018"/>
+  <testcase name="checkHomePageTitleTest" classname="projectTestCases.HomePageTestCases" time="0.009"/>
+  <testcase name="ExtractDealTest" classname="projectTestCases.HomePageTestCases" time="8.909">
+    <system-out><![CDATA[Blockbuster Deals
+Clearance Sale
+All Products on Sale
+All Decor on Sale
+UL Assured Picks
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="ExtractDealTest" classname="projectTestCases.HomePageTestCases" time="8.622">
+    <system-out><![CDATA[Blockbuster Deals
+Clearance Sale
+All Products on Sale
+All Decor on Sale
+UL Assured Picks
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.GiftCardPageTestCases" time="0.015"/>
+  <testcase name="checkHomePageUrlTest" classname="projectTestCases.GiftCardPageTestCases" time="0.018">
+    <system-err><![CDATA[Apr 03, 2024 10:19:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+  <testcase name="checkClickGiftCardTest" classname="projectTestCases.GiftCardPageTestCases" time="8.329"/>
+  <testcase name="checkClickGiftCardTest" classname="projectTestCases.GiftCardPageTestCases" time="9.444"/>
+  <testcase name="checkGiftCardUrlTest" classname="projectTestCases.GiftCardPageTestCases" time="0.072"/>
+  <testcase name="checkGiftCardUrlTest" classname="projectTestCases.GiftCardPageTestCases" time="0.008"/>
+  <testcase name="checkGiftCardTitleTest" classname="projectTestCases.GiftCardPageTestCases" time="0.025"/>
+  <testcase name="checkGiftCardTitleTest" classname="projectTestCases.GiftCardPageTestCases" time="0.009"/>
+  <testcase name="OccasionHandleTest" classname="projectTestCases.GiftCardPageTestCases" time="1.025"/>
+  <testcase name="OccasionHandleTest" classname="projectTestCases.GiftCardPageTestCases" time="0.801"/>
+  <testcase name="AmountHandlerTest" classname="projectTestCases.GiftCardPageTestCases" time="0.205"/>
+  <testcase name="AmountHandlerTest" classname="projectTestCases.GiftCardPageTestCases" time="0.114"/>
+  <testcase name="enterFormDetailsTest[shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0](1)" classname="projectTestCases.GiftCardPageTestCases" time="11.883">
+    <system-out><![CDATA[Actual Error Message is: Please include an '@' in the email address. 'shreya1' is missing an '@'.
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="enterFormDetailsTest[shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0](1)" classname="projectTestCases.GiftCardPageTestCases" time="11.732">
+    <system-out><![CDATA[Actual Error Message is: Please include an '@' in the email address. 'shreya1' is missing an '@'.
+]]></system-out>
+  </testcase>
+  <testcase name="DropDownHandlerTest" classname="projectTestCases.GiftCardPageTestCases" time="0.721"/>
+  <testcase name="DropDownHandlerTest" classname="projectTestCases.GiftCardPageTestCases" time="0.576"/>
+  <testcase name="ButtonHandleTest" classname="projectTestCases.GiftCardPageTestCases" time="0.479"/>
+  <testcase name="ButtonHandleTest" classname="projectTestCases.GiftCardPageTestCases" time="0.506"/>
+</testsuite>

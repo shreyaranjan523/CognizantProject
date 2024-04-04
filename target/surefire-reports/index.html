@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods,   42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="AmountHandlerTest">AmountHandlerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="AmountHandlerTest">AmountHandlerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="ButtonHandleTest">ButtonHandleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="ButtonHandleTest">ButtonHandleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="DropDownHandlerTest">DropDownHandlerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="DropDownHandlerTest">DropDownHandlerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="ExcludeOutOfStockTest">ExcludeOutOfStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="ExcludeOutOfStockTest">ExcludeOutOfStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="ExtractDealTest">ExtractDealTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="ExtractDealTest">ExtractDealTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="OccasionHandleTest">OccasionHandleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="OccasionHandleTest">OccasionHandleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="PriceSliderTest">PriceSliderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="PriceSliderTest">PriceSliderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="StorageTypeTest">StorageTypeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="StorageTypeTest">StorageTypeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkClickGiftCardTest">checkClickGiftCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkClickGiftCardTest">checkClickGiftCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkGiftCardTitleTest">checkGiftCardTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkGiftCardTitleTest">checkGiftCardTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkGiftCardUrlTest">checkGiftCardUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkGiftCardUrlTest">checkGiftCardUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="checkHomePageTitleTest">checkHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="checkHomePageTitleTest">checkHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.HomePageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="checkHomePageUrlTest">checkHomePageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkProductPageTitleTest">checkProductPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkProductPageTitleTest">checkProductPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkProductPageUrlTest">checkProductPageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="checkProductPageUrlTest">checkProductPageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="clickBookShelfTest">clickBookShelfTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="clickBookShelfTest">clickBookShelfTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)">enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.GiftCardPageTestCases" class="method navigator-link" hash-for-method="enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)">enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="listOfProductsTest">listOfProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="listOfProductsTest">listOfProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="popupTest">popupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="projectTestCases.ProductPageTestCases" class="method navigator-link" hash-for-method="popupTest">popupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">projectTestCases.HomePageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExtractDealTest">
+                  </a> <!-- ExtractDealTest -->
+                  <span class="method-name">ExtractDealTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExtractDealTest">
+                  </a> <!-- ExtractDealTest -->
+                  <span class="method-name">ExtractDealTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageTitleTest">
+                  </a> <!-- checkHomePageTitleTest -->
+                  <span class="method-name">checkHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageTitleTest">
+                  </a> <!-- checkHomePageTitleTest -->
+                  <span class="method-name">checkHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">projectTestCases.ProductPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeOutOfStockTest">
+                  </a> <!-- ExcludeOutOfStockTest -->
+                  <span class="method-name">ExcludeOutOfStockTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeOutOfStockTest">
+                  </a> <!-- ExcludeOutOfStockTest -->
+                  <span class="method-name">ExcludeOutOfStockTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PriceSliderTest">
+                  </a> <!-- PriceSliderTest -->
+                  <span class="method-name">PriceSliderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PriceSliderTest">
+                  </a> <!-- PriceSliderTest -->
+                  <span class="method-name">PriceSliderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorageTypeTest">
+                  </a> <!-- StorageTypeTest -->
+                  <span class="method-name">StorageTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorageTypeTest">
+                  </a> <!-- StorageTypeTest -->
+                  <span class="method-name">StorageTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductPageTitleTest">
+                  </a> <!-- checkProductPageTitleTest -->
+                  <span class="method-name">checkProductPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductPageTitleTest">
+                  </a> <!-- checkProductPageTitleTest -->
+                  <span class="method-name">checkProductPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductPageUrlTest">
+                  </a> <!-- checkProductPageUrlTest -->
+                  <span class="method-name">checkProductPageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductPageUrlTest">
+                  </a> <!-- checkProductPageUrlTest -->
+                  <span class="method-name">checkProductPageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBookShelfTest">
+                  </a> <!-- clickBookShelfTest -->
+                  <span class="method-name">clickBookShelfTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBookShelfTest">
+                  </a> <!-- clickBookShelfTest -->
+                  <span class="method-name">clickBookShelfTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listOfProductsTest">
+                  </a> <!-- listOfProductsTest -->
+                  <span class="method-name">listOfProductsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listOfProductsTest">
+                  </a> <!-- listOfProductsTest -->
+                  <span class="method-name">listOfProductsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popupTest">
+                  </a> <!-- popupTest -->
+                  <span class="method-name">popupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popupTest">
+                  </a> <!-- popupTest -->
+                  <span class="method-name">popupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">projectTestCases.GiftCardPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmountHandlerTest">
+                  </a> <!-- AmountHandlerTest -->
+                  <span class="method-name">AmountHandlerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmountHandlerTest">
+                  </a> <!-- AmountHandlerTest -->
+                  <span class="method-name">AmountHandlerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ButtonHandleTest">
+                  </a> <!-- ButtonHandleTest -->
+                  <span class="method-name">ButtonHandleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ButtonHandleTest">
+                  </a> <!-- ButtonHandleTest -->
+                  <span class="method-name">ButtonHandleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDownHandlerTest">
+                  </a> <!-- DropDownHandlerTest -->
+                  <span class="method-name">DropDownHandlerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDownHandlerTest">
+                  </a> <!-- DropDownHandlerTest -->
+                  <span class="method-name">DropDownHandlerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OccasionHandleTest">
+                  </a> <!-- OccasionHandleTest -->
+                  <span class="method-name">OccasionHandleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OccasionHandleTest">
+                  </a> <!-- OccasionHandleTest -->
+                  <span class="method-name">OccasionHandleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkClickGiftCardTest">
+                  </a> <!-- checkClickGiftCardTest -->
+                  <span class="method-name">checkClickGiftCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkClickGiftCardTest">
+                  </a> <!-- checkClickGiftCardTest -->
+                  <span class="method-name">checkClickGiftCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCardTitleTest">
+                  </a> <!-- checkGiftCardTitleTest -->
+                  <span class="method-name">checkGiftCardTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCardTitleTest">
+                  </a> <!-- checkGiftCardTitleTest -->
+                  <span class="method-name">checkGiftCardTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCardUrlTest">
+                  </a> <!-- checkGiftCardUrlTest -->
+                  <span class="method-name">checkGiftCardUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGiftCardUrlTest">
+                  </a> <!-- checkGiftCardUrlTest -->
+                  <span class="method-name">checkGiftCardUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageUrlTest">
+                  </a> <!-- checkHomePageUrlTest -->
+                  <span class="method-name">checkHomePageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)">
+                  </a> <!-- enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0) -->
+                  <span class="method-name">enterFormDetailsTest</span>
+                  <span class="parameters">(shreya,shreya1,9.876543211E9,chotu,chotu@gmail.com,9.876543212E9,park square,700009.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)">
+                  </a> <!-- enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0) -->
+                  <span class="method-name">enterFormDetailsTest</span>
+                  <span class="parameters">(shreya,shreya1,9.876543211E9,chotu,chotu@gmail.com,9.876543212E9,park square,700009.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2319953\eclipse-workspace\DisplayBookselvesProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.ProductPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.HomePageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.GiftCardPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Edge&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.ProductPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Edge&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.HomePageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Edge&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;projectTestCases.GiftCardPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SmokeTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkGiftCardTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkGiftCardUrlTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkHomePageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkHomePageUrlTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkProductPageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkProductPageUrlTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterFormDetailsTest')
+data.setCell(0, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(0, 3, 11879);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterFormDetailsTest')
+data.setCell(1, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(1, 3, 11728);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PriceSliderTest')
+data.setCell(2, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(2, 3, 11034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PriceSliderTest')
+data.setCell(3, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(3, 3, 10705);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkClickGiftCardTest')
+data.setCell(4, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(4, 3, 9445);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ExtractDealTest')
+data.setCell(5, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(5, 3, 8909);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ExtractDealTest')
+data.setCell(6, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(6, 3, 8621);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkClickGiftCardTest')
+data.setCell(7, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(7, 3, 8329);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'listOfProductsTest')
+data.setCell(8, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(8, 3, 2756);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'popupTest')
+data.setCell(9, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(9, 3, 2728);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickBookShelfTest')
+data.setCell(10, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(10, 3, 2614);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'listOfProductsTest')
+data.setCell(11, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(11, 3, 2603);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'popupTest')
+data.setCell(12, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(12, 3, 2394);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickBookShelfTest')
+data.setCell(13, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(13, 3, 2318);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'OccasionHandleTest')
+data.setCell(14, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(14, 3, 1025);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'OccasionHandleTest')
+data.setCell(15, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(15, 3, 800);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DropDownHandlerTest')
+data.setCell(16, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(16, 3, 723);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DropDownHandlerTest')
+data.setCell(17, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(17, 3, 576);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ButtonHandleTest')
+data.setCell(18, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(18, 3, 505);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ButtonHandleTest')
+data.setCell(19, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(19, 3, 479);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'StorageTypeTest')
+data.setCell(20, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(20, 3, 385);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ExcludeOutOfStockTest')
+data.setCell(21, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(21, 3, 267);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'StorageTypeTest')
+data.setCell(22, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(22, 3, 256);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'AmountHandlerTest')
+data.setCell(23, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(23, 3, 205);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ExcludeOutOfStockTest')
+data.setCell(24, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(24, 3, 164);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'AmountHandlerTest')
+data.setCell(25, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(25, 3, 113);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkGiftCardUrlTest')
+data.setCell(26, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(26, 3, 72);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkGiftCardTitleTest')
+data.setCell(27, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(27, 3, 25);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkHomePageUrlTest')
+data.setCell(28, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(28, 3, 24);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkHomePageUrlTest')
+data.setCell(29, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(29, 3, 19);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkHomePageUrlTest')
+data.setCell(30, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(30, 3, 19);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkHomePageTitleTest')
+data.setCell(31, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(31, 3, 18);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkHomePageUrlTest')
+data.setCell(32, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(32, 3, 14);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkProductPageTitleTest')
+data.setCell(33, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(33, 3, 12);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkHomePageUrlTest')
+data.setCell(34, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(34, 3, 12);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkProductPageUrlTest')
+data.setCell(35, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(35, 3, 10);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkProductPageUrlTest')
+data.setCell(36, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(36, 3, 9);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkProductPageTitleTest')
+data.setCell(37, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(37, 3, 9);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkHomePageUrlTest')
+data.setCell(38, 2, 'projectTestCases.ProductPageTestCases')
+data.setCell(38, 3, 9);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkGiftCardTitleTest')
+data.setCell(39, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(39, 3, 9);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkHomePageTitleTest')
+data.setCell(40, 2, 'projectTestCases.HomePageTestCases')
+data.setCell(40, 3, 8);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'checkGiftCardUrlTest')
+data.setCell(41, 2, 'projectTestCases.GiftCardPageTestCases')
+data.setCell(41, 3, 7);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.GiftCardPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.ProductPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">280 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">31868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=ProductPageTestCases.checkHomePageUrlTes...)</span>
+                <span class="method-start">31896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickBookShelfTest</span>
+                <span class="method-start">31906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickBookShelfTest status=SUCCESS method=ProductPageTestCases.clickBookShelfTest()[...)</span>
+                <span class="method-start">34225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkProductPageUrlTest</span>
+                <span class="method-start">34226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkProductPageUrlTest status=SUCCESS method=ProductPageTestCases.checkProductPage...)</span>
+                <span class="method-start">34236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkProductPageTitleTest</span>
+                <span class="method-start">34238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkProductPageTitleTest status=SUCCESS method=ProductPageTestCases.checkProductPa...)</span>
+                <span class="method-start">34251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">popupTest</span>
+                <span class="method-start">34253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=popupTest status=SUCCESS method=ProductPageTestCases.popupTest()[pri:6, instance:pr...)</span>
+                <span class="method-start">36982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PriceSliderTest</span>
+                <span class="method-start">36986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PriceSliderTest status=SUCCESS method=ProductPageTestCases.PriceSliderTest()[pri:7,...)</span>
+                <span class="method-start">48021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExcludeOutOfStockTest</span>
+                <span class="method-start">48022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ExcludeOutOfStockTest status=SUCCESS method=ProductPageTestCases.ExcludeOutOfStockT...)</span>
+                <span class="method-start">48290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">StorageTypeTest</span>
+                <span class="method-start">48292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=StorageTypeTest status=SUCCESS method=ProductPageTestCases.StorageTypeTest()[pri:8,...)</span>
+                <span class="method-start">48678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">listOfProductsTest</span>
+                <span class="method-start">48680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=listOfProductsTest status=SUCCESS method=ProductPageTestCases.listOfProductsTest()[...)</span>
+                <span class="method-start">51437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">51443 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">54139 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">85582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=HomePageTestCases.checkHomePageUrlTest()...)</span>
+                <span class="method-start">85602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageTitleTest</span>
+                <span class="method-start">85604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageTitleTest status=SUCCESS method=HomePageTestCases.checkHomePageTitleTe...)</span>
+                <span class="method-start">85623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExtractDealTest</span>
+                <span class="method-start">85625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ExtractDealTest status=SUCCESS method=HomePageTestCases.ExtractDealTest()[pri:3, in...)</span>
+                <span class="method-start">94535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">94536 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.GiftCardPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">97072 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">126971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=GiftCardPageTestCases.checkHomePageUrlTe...)</span>
+                <span class="method-start">126986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkClickGiftCardTest</span>
+                <span class="method-start">126987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkClickGiftCardTest status=SUCCESS method=GiftCardPageTestCases.checkClickGiftCa...)</span>
+                <span class="method-start">135317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCardUrlTest</span>
+                <span class="method-start">135319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkGiftCardUrlTest status=SUCCESS method=GiftCardPageTestCases.checkGiftCardUrlTe...)</span>
+                <span class="method-start">135391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCardTitleTest</span>
+                <span class="method-start">135393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkGiftCardTitleTest status=SUCCESS method=GiftCardPageTestCases.checkGiftCardTit...)</span>
+                <span class="method-start">135419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OccasionHandleTest</span>
+                <span class="method-start">135422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=OccasionHandleTest status=SUCCESS method=GiftCardPageTestCases.OccasionHandleTest()...)</span>
+                <span class="method-start">136448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AmountHandlerTest</span>
+                <span class="method-start">136450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AmountHandlerTest status=SUCCESS method=GiftCardPageTestCases.AmountHandlerTest()[p...)</span>
+                <span class="method-start">136656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)</span>
+                <span class="method-start">137867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=enterFormDetailsTest status=SUCCESS method=GiftCardPageTestCases.enterFormDetailsTe...)</span>
+                <span class="method-start">149747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DropDownHandlerTest</span>
+                <span class="method-start">149750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DropDownHandlerTest status=SUCCESS method=GiftCardPageTestCases.DropDownHandlerTest...)</span>
+                <span class="method-start">150473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ButtonHandleTest</span>
+                <span class="method-start">150475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ButtonHandleTest status=SUCCESS method=GiftCardPageTestCases.ButtonHandleTest()[pri...)</span>
+                <span class="method-start">150955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">150957 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.ProductPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(edge)</span>
+                <span class="method-start">153676 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">225926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=ProductPageTestCases.checkHomePageUrlTes...)</span>
+                <span class="method-start">225935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickBookShelfTest</span>
+                <span class="method-start">225936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clickBookShelfTest status=SUCCESS method=ProductPageTestCases.clickBookShelfTest()[...)</span>
+                <span class="method-start">228551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkProductPageUrlTest</span>
+                <span class="method-start">228552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkProductPageUrlTest status=SUCCESS method=ProductPageTestCases.checkProductPage...)</span>
+                <span class="method-start">228561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkProductPageTitleTest</span>
+                <span class="method-start">228562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkProductPageTitleTest status=SUCCESS method=ProductPageTestCases.checkProductPa...)</span>
+                <span class="method-start">228572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">popupTest</span>
+                <span class="method-start">228573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=popupTest status=SUCCESS method=ProductPageTestCases.popupTest()[pri:6, instance:pr...)</span>
+                <span class="method-start">230967 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PriceSliderTest</span>
+                <span class="method-start">230969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=PriceSliderTest status=SUCCESS method=ProductPageTestCases.PriceSliderTest()[pri:7,...)</span>
+                <span class="method-start">241675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExcludeOutOfStockTest</span>
+                <span class="method-start">241676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ExcludeOutOfStockTest status=SUCCESS method=ProductPageTestCases.ExcludeOutOfStockT...)</span>
+                <span class="method-start">241841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">StorageTypeTest</span>
+                <span class="method-start">241842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=StorageTypeTest status=SUCCESS method=ProductPageTestCases.StorageTypeTest()[pri:8,...)</span>
+                <span class="method-start">242099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">listOfProductsTest</span>
+                <span class="method-start">242099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=listOfProductsTest status=SUCCESS method=ProductPageTestCases.listOfProductsTest()[...)</span>
+                <span class="method-start">244703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">244705 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(edge)</span>
+                <span class="method-start">249720 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">320211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=HomePageTestCases.checkHomePageUrlTest()...)</span>
+                <span class="method-start">320223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageTitleTest</span>
+                <span class="method-start">320225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageTitleTest status=SUCCESS method=HomePageTestCases.checkHomePageTitleTe...)</span>
+                <span class="method-start">320234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExtractDealTest</span>
+                <span class="method-start">320235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ExtractDealTest status=SUCCESS method=HomePageTestCases.ExtractDealTest()[pri:3, in...)</span>
+                <span class="method-start">328858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">328859 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">projectTestCases.GiftCardPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(edge)</span>
+                <span class="method-start">332254 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageUrlTest</span>
+                <span class="method-start">404128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkHomePageUrlTest status=SUCCESS method=GiftCardPageTestCases.checkHomePageUrlTe...)</span>
+                <span class="method-start">404147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkClickGiftCardTest</span>
+                <span class="method-start">404148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkClickGiftCardTest status=SUCCESS method=GiftCardPageTestCases.checkClickGiftCa...)</span>
+                <span class="method-start">413593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCardUrlTest</span>
+                <span class="method-start">413594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkGiftCardUrlTest status=SUCCESS method=GiftCardPageTestCases.checkGiftCardUrlTe...)</span>
+                <span class="method-start">413601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkGiftCardTitleTest</span>
+                <span class="method-start">413602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkGiftCardTitleTest status=SUCCESS method=GiftCardPageTestCases.checkGiftCardTit...)</span>
+                <span class="method-start">413611 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OccasionHandleTest</span>
+                <span class="method-start">413613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=OccasionHandleTest status=SUCCESS method=GiftCardPageTestCases.OccasionHandleTest()...)</span>
+                <span class="method-start">414414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AmountHandlerTest</span>
+                <span class="method-start">414414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=AmountHandlerTest status=SUCCESS method=GiftCardPageTestCases.AmountHandlerTest()[p...)</span>
+                <span class="method-start">414528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">enterFormDetailsTest(shreya, shreya1, 9.876543211E9, chotu, chotu@gmail.com, 9.876543212E9, park square, 700009.0)</span>
+                <span class="method-start">414572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=enterFormDetailsTest status=SUCCESS method=GiftCardPageTestCases.enterFormDetailsTe...)</span>
+                <span class="method-start">426301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DropDownHandlerTest</span>
+                <span class="method-start">426303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DropDownHandlerTest status=SUCCESS method=GiftCardPageTestCases.DropDownHandlerTest...)</span>
+                <span class="method-start">426880 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ButtonHandleTest</span>
+                <span class="method-start">426882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=ButtonHandleTest status=SUCCESS method=GiftCardPageTestCases.ButtonHandleTest()[pri...)</span>
+                <span class="method-start">427388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">427389 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">431557 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -81,7 +81,7 @@ public class ProductPageTestCases extends ReportGenerator {
 	public void checkProductPageTitleTest() {
 		test = extent.startTest("test4");
 		String url = driver.getTitle();
-		Assert.assertEquals(url, "Up to 70% off on Bookshelves at Color Crush Sale - Urban Ladder");
+		Assert.assertEquals(url, "Up to 70% off on Bookshelves | Summer Sale - Urban Ladder");
 	}
 
 	@Test(priority = 6)

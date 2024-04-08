@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
 public class ApachePOI {
 //new File("C:\\Users\\2320135\\eclipse-workspace\\HackathonProject\\apachepoi1.xlsx"));
-public Object[][] getData(String path,String filename,String sheetname) throws Exception
+public Object[][] getData(String sheetname) throws Exception
 {
 	String directoryPath = System.getProperty("user.dir");
 	String relativePath = "/src/test/resources/ExcelSheets/TestData1.xlsx";

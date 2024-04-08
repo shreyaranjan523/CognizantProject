@@ -172,9 +172,7 @@ public class GiftCardPageTestCases extends ReportGenerator {
 	@DataProvider(name = "enterFormDetailsTest")
 	public Object[][] dataProvider() throws Exception {
 		ApachePOI ap = new ApachePOI();
-		Object[][] testData = ap.getData(
-				"C:\\Users\\2319953\\eclipse-workspace\\DisplayBookselvesProject\\src\\test\\resources\\ExcelSheets\\",
-				"TestData1", "Sheet2");
+		Object[][] testData = ap.getData("Sheet2");
 		return testData;
 	}
 	
